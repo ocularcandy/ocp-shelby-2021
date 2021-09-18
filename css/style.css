@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------- */
 
 #welcome {
-	background: url('../images/photo.jpg') no-repeat center;
+	background: url('../images/yellowfleur.jpg') no-repeat center;
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
@@ -652,7 +652,8 @@ footer p {
 	}
 
 	.section_subtitle { margin: 0 0 30px 0; }
-	#about, #contact { padding: 80px 25px; }
+	#about, #contact, #resume { padding: 80px 25px; }
+
 	
 	#portfolio { padding: 80px 25px 65px; }
 	
@@ -701,3 +702,146 @@ footer p {
 	}
 	.left { padding: 0 0 15px 0;}
 }
+
+img {
+    max-width: 100%;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.img-me {
+    margin-top: 18px;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #A5B14C;
+}
+
+.timeline>li .timeline-image h4 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li .timeline-image span.ico {
+    margin-top: 2px;
+    font-size: 3.2em;
+    display: inline-block;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h2 {
+    margin-top: 30px;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+    color: #A5B14C;
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+}
+
+#resume{
+	background: #fff;
+	padding: 100px 50px;
+}
+
