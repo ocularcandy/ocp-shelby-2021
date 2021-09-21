@@ -100,7 +100,7 @@ p {
 }
 
 a {
-	color: #A5B14C;
+	color: #1A4A58;
 	text-decoration: none;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Section Titles */
 .section_title {
 	margin: 0 0 15px 0;
-	color: #A5B14C;
+	color: #1A4A58;
 	font-size: 24px;
 	text-transform: uppercase;
 	letter-spacing: 6px;
@@ -175,7 +175,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------- */
 
 #welcome {
-	background: url('../images/yellowfleur.jpg') no-repeat center;
+	/* background: url('../images/yellowfleur.jpg') no-repeat center; */
+	background: url('../images/warsstar.jpg') no-repeat center;
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
@@ -191,14 +192,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Header Titles */
 .header_title {
 	color: #fff;
-	font-size: 30px;
+	font-size: 50px;
 	letter-spacing: 6px;
 	margin: 0 0 20px 0;
 }
 
 .header_subtitle {
-	color: #A5B14C;
-	font-size: 14px;
+	color: #1A4A58;
+	font-size: 32px;
 	letter-spacing: 6px;
 }
 
@@ -248,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 	transform: translateY(-10px) translateX(0) rotate(-45deg);
 }
 .burger span {
-	background: #A5B14C;
+	background: #1A4A58;
 	border: none;
 	height: 2px;
 	width: 100%;
@@ -406,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0 20px;
 	height: 50px;
 	line-height: 50px;
-	border: 2px solid #A5B14C;
+	border: 2px solid #1A4A58;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -458,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .works  a:hover {
-	color: #A5B14C;
+	color: #1A4A58;
 }
 
 .works img {
@@ -495,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 50px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #A5B14C;
+	color: #1A4A58;
 }
 
 .videoWrapper {
@@ -560,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .info h3 {
-	color: #A5B14C;
+	color: #1A4A58;
 	margin: 0 0 15px 0;
 }
 
@@ -581,11 +582,11 @@ h1, h2, h3, h4, h5, h6 {
 .social a {
 	flex: 0 0 30px;
 	-webkit-flex: 0 0 30px;
-	border: 2px solid #A5B14C;
+	border: 2px solid #1A4A58;
 	height: 30px;
 	line-height: 26px;
 	font-size: 16px;
-	color: #A5B14C;
+	color: #1A4A58;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
@@ -594,7 +595,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social a:hover {
-	background: #A5B14C;
+	background: #1A4A58;
 	color: #fff;
 }
 
@@ -637,7 +638,7 @@ footer p {
 
 .right a { color: #999 }
 
-.right a:hover { color: #A5B14C}
+.right a:hover { color: #1A4A58}
 
 /* 09 RESPONSIVE SETTINGS
 --------------------------------------------------------------- */
@@ -781,7 +782,7 @@ img {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #A5B14C;
+    background-color: #1A4A58;
 }
 
 .timeline>li .timeline-image h4 {
@@ -832,7 +833,7 @@ img {
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
-    color: #A5B14C;
+    color: #1A4A58;
 }
 
 .timeline .timeline-body>p,
@@ -852,7 +853,10 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 36px;
-    border-bottom: 6px solid #A5B14C;
+    border-bottom: 6px solid #1A4A58; 
+    /*4EA1F7 light blue*/
+    /*A5B14C yellow green*/
+    /*FF4500 orangeRed*/
     padding-bottom: 5px;
     display: inline-block;
 }
