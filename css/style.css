@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Back text */
 .featherlight .featherlight-close-icon:after {
-	content:" back";
+	content:"";
 	font-size: 12px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
