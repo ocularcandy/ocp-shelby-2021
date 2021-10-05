@@ -7,7 +7,10 @@
 	<!-- Styles -->
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link type="text/css" rel="stylesheet" href="css/featherlight.css" />
+
+	<!-- <link type="text/css" rel="stylesheet" href="css/featherlight.css" /> -->
+        <link type="text/css" rel="stylesheet" href="featherlight/release/featherlight.min.css" />
+        <link type="text/css" rel="stylesheet" href="featherlight/release/featherlight.gallery.min.css" />
 	<style type="text/css">
 		@media all {
 			.lightbox { display: none; }
@@ -16,7 +19,7 @@
 	<!-- jQuery -->
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="icon" type="image/x-icon" href="favicon.ico" >
 
         <link rel="icon" type="image/x-icon" sizes="32x32" href="favicon-32x32.png">
@@ -60,7 +63,7 @@
 		</div>
 	</header>
 	<!-- END HEADER /////////////////////////////////////////////////////////////////////////// -->
-	
+
 	<!-- ABOUT SECTION /////////////////////////////////////////////////////////////////////////// -->
 	<section id="about" class="module">
 		<div class="container_small">
@@ -104,7 +107,7 @@
                                     <h2 class="subheading">Work Experience</h2>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted"> 
+                                    <p class="text-muted">
                                         I've been developing web applications using the MEAN Stack and my mad JavaScript skills for the past six years.  I'm known for producing applications that are easy to use, test, maintain, scale and troubleshoot. I'm passionate about details and meet deadlines with ease. I love to learn and adapt quickly to change.</p>
                                 </div>
                             </div>
@@ -204,7 +207,7 @@
                 </div>
             </div>
             <div class="container_small">
-                <a href="images/AmberHayesResume2021.pdf" 
+                <a href="images/AmberHayesResume2021.pdf"
                    target="_blank" class="button">
                     <i class="fa fa-download"></i> View Resume
                 </a>
@@ -222,9 +225,13 @@
 			<div class="works">
 				<!-- Work 01 -->
 				<article>
-					<a src="images/bbphome.jpg" 
-                                            href="http://www.blackbutterfly.biz"
-                                            target="_blank">
+					<!-- <a src="images/bbphome.jpg" -->
+                                            <!-- href="http://www.blackbutterfly.biz" -->
+                                            <!-- target="_blank"> -->
+                                            <a href="http://www.blackbutterfly.biz"
+                                               data-featherlight="iframe"
+                                               data-featherlight-iframe-height="640"
+                                               data-featherlight-iframe-width="480">
 						<div class="border">
 							<img src="images/bbphome.jpg" href="http://www.blackbutterfly.biz" alt="">
 							<h3 class="caption">Black Butterfly Productions</h3>
@@ -233,9 +240,16 @@
 				</article>
 				<!-- Work 02 -->
 				<article>
-					<a href="images/boudoir.jpg" data-featherlight="image">
-						<div class="border">
-							<img src="images/boudoir.jpg" alt="">
+                                    <div class="border"
+                                         data-featherlight-gallery
+                                         data-featherlight-filter="a"
+                                         >
+                                         <a href="images/boudoir.jpg"><img src="images/boudoir.jpg"></a>
+                                         <a id="hidden_image" style="display:none" href="images/boudoir2.jpg" ><img src="images/boudoir2.jpg"></a>
+                                         <a id="hidden_image" style="display:none" href="images/boudoir3.jpg" ><img src="images/boudoir3.jpg"></a>
+                                         <a id="hidden_image" style="display:none" href="images/boudoir4.jpg" ><img src="images/boudoir4.jpg"></a>
+						<!-- <div class="border"> -->
+							<!-- <img src="images/boudoir.jpg" alt=""> -->
 							<h3 class="caption">Boudoir</h3>
 						</div>
 					</a>
@@ -248,12 +262,6 @@
 							<h3 class="caption">Outdoor Life</h3>
 						</div>
 					</a>
-					<!-- <1!-- Lightbox --1> -->
-					<!-- <div class="lightbox iframe" id="03"> -->
-					<!-- 	<div class="videoWrapper"> -->
-					<!-- 		<iframe width="560" height="315" src="https://www.youtube.com/embed/yNENVZFHutQ?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-					<!-- 	</div> -->
-					<!-- </div> -->
 				</article>
 				<!-- Work 04 -->
 				<article>
@@ -263,12 +271,6 @@
 							<h3 class="caption">Weddings</h3>
 						</div>
 					</a>
-					<!-- <!&#45;&#45; Lightbox &#45;&#45;> -->
-					<!-- <div class="lightbox" id="04"> -->
-					<!-- 	<div class="videoWrapper"> -->
-					<!-- 		<iframe src="https://player.vimeo.com/video/77343537?color=a67d4a&#38;title=0&#38;byline=0&#38;portrait=0" width="800" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-					<!-- 	</div> -->
-					<!-- </div> -->
 				</article>
 				<!-- Work 05 -->
 				<article>
@@ -292,7 +294,7 @@
 		</div>
 	</section>
 	<!-- END PORTFOLIO SECTION /////////////////////////////////////////////////////////////////////////// -->
-	
+
 	<!-- CONTACT SECTION /////////////////////////////////////////////////////////////////////////// -->
 	<section id="contact" class="module">
 		<div class="container_small">
@@ -347,8 +349,8 @@
 			</div>
 		</div>
 	</section>
-	<!-- END CONTACT SECTION /////////////////////////////////////////////////////////////////////////// -->	
-	
+	<!-- END CONTACT SECTION /////////////////////////////////////////////////////////////////////////// -->
+
 	<!-- FOOTER /////////////////////////////////////////////////////////////////////////// -->
 	<footer>
 		<div class="container_footer">
@@ -361,11 +363,17 @@
 		</div>
 	</footer>
 	<!-- END FOOTER /////////////////////////////////////////////////////////////////////////// -->
-	
+
 	<!-- Scripts -->
 	<script src="js/parallax.js"></script>
 	<script src="js/menu.js"></script>
-	<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script> -->
 	<script src="js/scroll.js"></script>
+
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="featherlight/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="featherlight/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 </html>
